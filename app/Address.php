@@ -1,0 +1,18 @@
+<?php
+
+namespace App;
+
+use Illuminate\Database\Eloquent\Model;
+
+class Address extends Model
+{
+    public function user()
+    {
+        return $this->belongsTo('App\User');
+    }
+
+    public function retailer()
+    {
+        return $this->belongsTo('App\Retailer');
+    }
+}

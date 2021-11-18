@@ -1,0 +1,1218 @@
+[
+    {
+        "verticale": "Attrazioni e intrattenimento",
+        "nomeCategoria": "Attrazione turistica"
+    },
+    {
+        "verticale": "Attrazioni e intrattenimento",
+        "nomeCategoria": "Azienda vinicola"
+    },
+    {
+        "verticale": "Attrazioni e intrattenimento",
+        "nomeCategoria": "Bowling"
+    },
+    {
+        "verticale": "Attrazioni e intrattenimento",
+        "nomeCategoria": "Campo da golf"
+    },
+    {
+        "verticale": "Attrazioni e intrattenimento",
+        "nomeCategoria": "Centro di quartiere"
+    },
+    {
+        "verticale": "Attrazioni e intrattenimento",
+        "nomeCategoria": "Centro eventi"
+    },
+    {
+        "verticale": "Attrazioni e intrattenimento",
+        "nomeCategoria": "Cinema"
+    },
+    {
+        "verticale": "Attrazioni e intrattenimento",
+        "nomeCategoria": "Galleria d'arte"
+    },
+    {
+        "verticale": "Attrazioni e intrattenimento",
+        "nomeCategoria": "Golf club"
+    },
+    {
+        "verticale": "Attrazioni e intrattenimento",
+        "nomeCategoria": "Locale notturno"
+    },
+    {
+        "verticale": "Attrazioni e intrattenimento",
+        "nomeCategoria": "Museo"
+    },
+    {
+        "verticale": "Attrazioni e intrattenimento",
+        "nomeCategoria": "Museo d'arte"
+    },
+    {
+        "verticale": "Attrazioni e intrattenimento",
+        "nomeCategoria": "Musica dal vivo"
+    },
+    {
+        "verticale": "Attrazioni e intrattenimento",
+        "nomeCategoria": "Parco"
+    },
+    {
+        "verticale": "Attrazioni e intrattenimento",
+        "nomeCategoria": "Parco acquatico"
+    },
+    {
+        "verticale": "Attrazioni e intrattenimento",
+        "nomeCategoria": "Parco divertimenti"
+    },
+    {
+        "verticale": "Attrazioni e intrattenimento",
+        "nomeCategoria": "Parco divertimenti a tema"
+    },
+    {
+        "verticale": "Attrazioni e intrattenimento",
+        "nomeCategoria": "Parco nazionale"
+    },
+    {
+        "verticale": "Attrazioni e intrattenimento",
+        "nomeCategoria": "Stadio"
+    },
+    {
+        "verticale": "Attrazioni e intrattenimento",
+        "nomeCategoria": "Teatro"
+    },
+    {
+        "verticale": "Attrazioni e intrattenimento",
+        "nomeCategoria": "Zoo"
+    },
+    {
+        "verticale": "Edifici e servizi pubblici",
+        "nomeCategoria": "Appartamenti"
+    },
+    {
+        "verticale": "Edifici e servizi pubblici",
+        "nomeCategoria": "Azienda fornitrice di energia elettrica"
+    },
+    {
+        "verticale": "Edifici e servizi pubblici",
+        "nomeCategoria": "Biblioteca"
+    },
+    {
+        "verticale": "Edifici e servizi pubblici",
+        "nomeCategoria": "Biblioteca pubblica"
+    },
+    {
+        "verticale": "Edifici e servizi pubblici",
+        "nomeCategoria": "Cimitero"
+    },
+    {
+        "verticale": "Edifici e servizi pubblici",
+        "nomeCategoria": "Complesso condominiale"
+    },
+    {
+        "verticale": "Edifici e servizi pubblici",
+        "nomeCategoria": "Condominio"
+    },
+    {
+        "verticale": "Edifici e servizi pubblici",
+        "nomeCategoria": "Municipio"
+    },
+    {
+        "verticale": "Edifici e servizi pubblici",
+        "nomeCategoria": "Pubblico Registro Automobilistico"
+    },
+    {
+        "verticale": "Edifici e servizi pubblici",
+        "nomeCategoria": "Ufficio dell'amministrazione comunale"
+    },
+    {
+        "verticale": "Edifici e servizi pubblici",
+        "nomeCategoria": "Ufficio governativo della contea"
+    },
+    {
+        "verticale": "Edifici e servizi pubblici",
+        "nomeCategoria": "Ufficio statale"
+    },
+    {
+        "verticale": "Edifici e servizi pubblici",
+        "nomeCategoria": "Ufficio statale locale"
+    },
+    {
+        "verticale": "Edifici e servizi pubblici",
+        "nomeCategoria": "Zona industriale"
+    },
+    {
+        "verticale": "Emergenza",
+        "nomeCategoria": "Dipartimento di polizia"
+    },
+    {
+        "verticale": "Emergenza",
+        "nomeCategoria": "Stazione di polizia"
+    },
+    {
+        "verticale": "Emergenza",
+        "nomeCategoria": "Vigili del fuoco"
+    },
+    {
+        "verticale": "Istituto di credito",
+        "nomeCategoria": "Agenzia di assicurazioni"
+    },
+    {
+        "verticale": "Istituto di credito",
+        "nomeCategoria": "Agenzia prestiti"
+    },
+    {
+        "verticale": "Istituto di credito",
+        "nomeCategoria": "Banca"
+    },
+    {
+        "verticale": "Istituto di credito",
+        "nomeCategoria": "Bancomat"
+    },
+    {
+        "verticale": "Istituto di credito",
+        "nomeCategoria": "Cassa di risparmio"
+    },
+    {
+        "verticale": "Istituto di credito",
+        "nomeCategoria": "Commercialista"
+    },
+    {
+        "verticale": "Istituto di credito",
+        "nomeCategoria": "Consulente finanziario"
+    },
+    {
+        "verticale": "Istituto di credito",
+        "nomeCategoria": "Consulente fiscale"
+    },
+    {
+        "verticale": "Istituto di credito",
+        "nomeCategoria": "Cooperativa di credito"
+    },
+    {
+        "verticale": "Istituto di credito",
+        "nomeCategoria": "Pianificatore finanziario"
+    },
+    {
+        "verticale": "Istituto di credito",
+        "nomeCategoria": "Servizio di assistenza fiscale"
+    },
+    {
+        "verticale": "Istituto di credito",
+        "nomeCategoria": "Servizio di trasferimento di denaro"
+    },
+    {
+        "verticale": "Istruzione",
+        "nomeCategoria": "Asilo"
+    },
+    {
+        "verticale": "Istruzione",
+        "nomeCategoria": "Centro di formazione"
+    },
+    {
+        "verticale": "Istruzione",
+        "nomeCategoria": "Scuola"
+    },
+    {
+        "verticale": "Istruzione",
+        "nomeCategoria": "Scuola elementare"
+    },
+    {
+        "verticale": "Istruzione",
+        "nomeCategoria": "Scuola materna"
+    },
+    {
+        "verticale": "Istruzione",
+        "nomeCategoria": "Scuola media"
+    },
+    {
+        "verticale": "Istruzione",
+        "nomeCategoria": "Scuola privata"
+    },
+    {
+        "verticale": "Istruzione",
+        "nomeCategoria": "Scuola pubblica"
+    },
+    {
+        "verticale": "Istruzione",
+        "nomeCategoria": "Scuola superiore"
+    },
+    {
+        "verticale": "Istruzione",
+        "nomeCategoria": "Servizi di tutoraggio"
+    },
+    {
+        "verticale": "Istruzione",
+        "nomeCategoria": "Università"
+    },
+    {
+        "verticale": "Istruzione",
+        "nomeCategoria": "Università pubblica"
+    },
+    {
+        "verticale": "Luogo di culto",
+        "nomeCategoria": "Ashram"
+    },
+    {
+        "verticale": "Luogo di culto",
+        "nomeCategoria": "Chiesa"
+    },
+    {
+        "verticale": "Luogo di culto",
+        "nomeCategoria": "Chiesa battista"
+    },
+    {
+        "verticale": "Luogo di culto",
+        "nomeCategoria": "Chiesa cattolica"
+    },
+    {
+        "verticale": "Luogo di culto",
+        "nomeCategoria": "Convento"
+    },
+    {
+        "verticale": "Luogo di culto",
+        "nomeCategoria": "Destinazione religiosa"
+    },
+    {
+        "verticale": "Luogo di culto",
+        "nomeCategoria": "Gurudwara (Tempio Sikh)"
+    },
+    {
+        "verticale": "Luogo di culto",
+        "nomeCategoria": "Luogo di culto"
+    },
+    {
+        "verticale": "Luogo di culto",
+        "nomeCategoria": "Luogo di culto Bahá'í"
+    },
+    {
+        "verticale": "Luogo di culto",
+        "nomeCategoria": "Luogo di pellegrinaggio"
+    },
+    {
+        "verticale": "Luogo di culto",
+        "nomeCategoria": "Missione"
+    },
+    {
+        "verticale": "Luogo di culto",
+        "nomeCategoria": "Monastero"
+    },
+    {
+        "verticale": "Luogo di culto",
+        "nomeCategoria": "Moschea"
+    },
+    {
+        "verticale": "Luogo di culto",
+        "nomeCategoria": "Pagoda"
+    },
+    {
+        "verticale": "Luogo di culto",
+        "nomeCategoria": "Sinagoga"
+    },
+    {
+        "verticale": "Luogo di culto",
+        "nomeCategoria": "Tempio Jain"
+    },
+    {
+        "verticale": "Luogo di culto",
+        "nomeCategoria": "Tempio buddista"
+    },
+    {
+        "verticale": "Luogo di culto",
+        "nomeCategoria": "Tempio hindu"
+    },
+    {
+        "verticale": "Luogo di culto",
+        "nomeCategoria": "Tempio shintoista"
+    },
+    {
+        "verticale": "Medicina e salute",
+        "nomeCategoria": "Centro medico"
+    },
+    {
+        "verticale": "Medicina e salute",
+        "nomeCategoria": "Centro oculistico"
+    },
+    {
+        "verticale": "Medicina e salute",
+        "nomeCategoria": "Chiropratico"
+    },
+    {
+        "verticale": "Medicina e salute",
+        "nomeCategoria": "Clinica dentale"
+    },
+    {
+        "verticale": "Medicina e salute",
+        "nomeCategoria": "Clinica medica"
+    },
+    {
+        "verticale": "Medicina e salute",
+        "nomeCategoria": "Clinica veterinaria"
+    },
+    {
+        "verticale": "Medicina e salute",
+        "nomeCategoria": "Dentista"
+    },
+    {
+        "verticale": "Medicina e salute",
+        "nomeCategoria": "Dermatologo"
+    },
+    {
+        "verticale": "Medicina e salute",
+        "nomeCategoria": "Fisioterapista"
+    },
+    {
+        "verticale": "Medicina e salute",
+        "nomeCategoria": "Ginecologo"
+    },
+    {
+        "verticale": "Medicina e salute",
+        "nomeCategoria": "Internista"
+    },
+    {
+        "verticale": "Medicina e salute",
+        "nomeCategoria": "Laboratorio medico"
+    },
+    {
+        "verticale": "Medicina e salute",
+        "nomeCategoria": "Medico"
+    },
+    {
+        "verticale": "Medicina e salute",
+        "nomeCategoria": "Medico di base"
+    },
+    {
+        "verticale": "Medicina e salute",
+        "nomeCategoria": "Medico di famiglia"
+    },
+    {
+        "verticale": "Medicina e salute",
+        "nomeCategoria": "Optometrista"
+    },
+    {
+        "verticale": "Medicina e salute",
+        "nomeCategoria": "Ospedale"
+    },
+    {
+        "verticale": "Medicina e salute",
+        "nomeCategoria": "Pediatra"
+    },
+    {
+        "verticale": "Medicina e salute",
+        "nomeCategoria": "Psicologo"
+    },
+    {
+        "verticale": "Medicina e salute",
+        "nomeCategoria": "Servizi infermieristici"
+    },
+    {
+        "verticale": "Medicina e salute",
+        "nomeCategoria": "Servizio di assistenza domiciliare"
+    },
+    {
+        "verticale": "Medicina e salute",
+        "nomeCategoria": "Veterinario"
+    },
+    {
+        "verticale": "Negozi e shopping",
+        "nomeCategoria": "Alimentari"
+    },
+    {
+        "verticale": "Negozi e shopping",
+        "nomeCategoria": "Boutique"
+    },
+    {
+        "verticale": "Negozi e shopping",
+        "nomeCategoria": "Caffetteria"
+    },
+    {
+        "verticale": "Negozi e shopping",
+        "nomeCategoria": "Cartoleria"
+    },
+    {
+        "verticale": "Negozi e shopping",
+        "nomeCategoria": "Casalinghi"
+    },
+    {
+        "verticale": "Negozi e shopping",
+        "nomeCategoria": "Cash and carry"
+    },
+    {
+        "verticale": "Negozi e shopping",
+        "nomeCategoria": "Centro commerciale"
+    },
+    {
+        "verticale": "Negozi e shopping",
+        "nomeCategoria": "Concessionario moto"
+    },
+    {
+        "verticale": "Negozi e shopping",
+        "nomeCategoria": "Discount"
+    },
+    {
+        "verticale": "Negozi e shopping",
+        "nomeCategoria": "Donut e ciambelle"
+    },
+    {
+        "verticale": "Negozi e shopping",
+        "nomeCategoria": "Farmacia"
+    },
+    {
+        "verticale": "Negozi e shopping",
+        "nomeCategoria": "Ferramenta"
+    },
+    {
+        "verticale": "Negozi e shopping",
+        "nomeCategoria": "Fiorista"
+    },
+    {
+        "verticale": "Negozi e shopping",
+        "nomeCategoria": "Gioielleria"
+    },
+    {
+        "verticale": "Negozi e shopping",
+        "nomeCategoria": "Gioielliere"
+    },
+    {
+        "verticale": "Negozi e shopping",
+        "nomeCategoria": "Grande magazzino"
+    },
+    {
+        "verticale": "Negozi e shopping",
+        "nomeCategoria": "Hard discount"
+    },
+    {
+        "verticale": "Negozi e shopping",
+        "nomeCategoria": "Libreria"
+    },
+    {
+        "verticale": "Negozi e shopping",
+        "nomeCategoria": "Macelleria"
+    },
+    {
+        "verticale": "Negozi e shopping",
+        "nomeCategoria": "Mercato"
+    },
+    {
+        "verticale": "Negozi e shopping",
+        "nomeCategoria": "Minimarket"
+    },
+    {
+        "verticale": "Negozi e shopping",
+        "nomeCategoria": "Monte dei pegni"
+    },
+    {
+        "verticale": "Negozi e shopping",
+        "nomeCategoria": "Negozio"
+    },
+    {
+        "verticale": "Negozi e shopping",
+        "nomeCategoria": "Negozio di abbigliamento"
+    },
+    {
+        "verticale": "Negozi e shopping",
+        "nomeCategoria": "Negozio di abbigliamento donna"
+    },
+    {
+        "verticale": "Negozi e shopping",
+        "nomeCategoria": "Negozio di abbigliamento per bambini"
+    },
+    {
+        "verticale": "Negozi e shopping",
+        "nomeCategoria": "Negozio di abbigliamento sportivo"
+    },
+    {
+        "verticale": "Negozi e shopping",
+        "nomeCategoria": "Negozio di abbigliamento uomo"
+    },
+    {
+        "verticale": "Negozi e shopping",
+        "nomeCategoria": "Negozio di abiti da sposa"
+    },
+    {
+        "verticale": "Negozi e shopping",
+        "nomeCategoria": "Negozio di accessori di moda"
+    },
+    {
+        "verticale": "Negozi e shopping",
+        "nomeCategoria": "Negozio di alimentari"
+    },
+    {
+        "verticale": "Negozi e shopping",
+        "nomeCategoria": "Negozio di alimenti naturali"
+    },
+    {
+        "verticale": "Negozi e shopping",
+        "nomeCategoria": "Negozio di animali"
+    },
+    {
+        "verticale": "Negozi e shopping",
+        "nomeCategoria": "Negozio di articoli da regalo"
+    },
+    {
+        "verticale": "Negozi e shopping",
+        "nomeCategoria": "Negozio di articoli per bambini"
+    },
+    {
+        "verticale": "Negozi e shopping",
+        "nomeCategoria": "Negozio di articoli per la pittura"
+    },
+    {
+        "verticale": "Negozi e shopping",
+        "nomeCategoria": "Negozio di articoli per sport all'aria aperta"
+    },
+    {
+        "verticale": "Negozi e shopping",
+        "nomeCategoria": "Negozio di articoli sportivi"
+    },
+    {
+        "verticale": "Negozi e shopping",
+        "nomeCategoria": "Negozio di articoli usati"
+    },
+    {
+        "verticale": "Negozi e shopping",
+        "nomeCategoria": "Negozio di artigianato tipico"
+    },
+    {
+        "verticale": "Negozi e shopping",
+        "nomeCategoria": "Negozio di biciclette"
+    },
+    {
+        "verticale": "Negozi e shopping",
+        "nomeCategoria": "Negozio di bricolage"
+    },
+    {
+        "verticale": "Negozi e shopping",
+        "nomeCategoria": "Negozio di computer"
+    },
+    {
+        "verticale": "Negozi e shopping",
+        "nomeCategoria": "Negozio di cosmetici"
+    },
+    {
+        "verticale": "Negozi e shopping",
+        "nomeCategoria": "Negozio di dessert"
+    },
+    {
+        "verticale": "Negozi e shopping",
+        "nomeCategoria": "Negozio di elettrodomestici"
+    },
+    {
+        "verticale": "Negozi e shopping",
+        "nomeCategoria": "Negozio di elettronica"
+    },
+    {
+        "verticale": "Negozi e shopping",
+        "nomeCategoria": "Negozio di forniture elettriche"
+    },
+    {
+        "verticale": "Negozi e shopping",
+        "nomeCategoria": "Negozio di forniture per ufficio"
+    },
+    {
+        "verticale": "Negozi e shopping",
+        "nomeCategoria": "Negozio di generi vari"
+    },
+    {
+        "verticale": "Negozi e shopping",
+        "nomeCategoria": "Negozio di giocattoli"
+    },
+    {
+        "verticale": "Negozi e shopping",
+        "nomeCategoria": "Negozio di intimo"
+    },
+    {
+        "verticale": "Negozi e shopping",
+        "nomeCategoria": "Negozio di liquori"
+    },
+    {
+        "verticale": "Negozi e shopping",
+        "nomeCategoria": "Negozio di materiali da costruzione"
+    },
+    {
+        "verticale": "Negozi e shopping",
+        "nomeCategoria": "Negozio di mobili"
+    },
+    {
+        "verticale": "Negozi e shopping",
+        "nomeCategoria": "Negozio di prodotti di bellezza"
+    },
+    {
+        "verticale": "Negozi e shopping",
+        "nomeCategoria": "Negozio di ricambi per auto"
+    },
+    {
+        "verticale": "Negozi e shopping",
+        "nomeCategoria": "Negozio di scarpe"
+    },
+    {
+        "verticale": "Negozi e shopping",
+        "nomeCategoria": "Negozio di telefoni cellulari"
+    },
+    {
+        "verticale": "Negozi e shopping",
+        "nomeCategoria": "Negozio di tessuti"
+    },
+    {
+        "verticale": "Negozi e shopping",
+        "nomeCategoria": "Negozio di videogiochi"
+    },
+    {
+        "verticale": "Negozi e shopping",
+        "nomeCategoria": "Negozio di vini"
+    },
+    {
+        "verticale": "Negozi e shopping",
+        "nomeCategoria": "Negozio per animali"
+    },
+    {
+        "verticale": "Negozi e shopping",
+        "nomeCategoria": "Ottico"
+    },
+    {
+        "verticale": "Negozi e shopping",
+        "nomeCategoria": "Outlet"
+    },
+    {
+        "verticale": "Negozi e shopping",
+        "nomeCategoria": "Parafarmacia e drogheria"
+    },
+    {
+        "verticale": "Negozi e shopping",
+        "nomeCategoria": "Rivenditore di auto"
+    },
+    {
+        "verticale": "Negozi e shopping",
+        "nomeCategoria": "Rivenditore di auto usate"
+    },
+    {
+        "verticale": "Negozi e shopping",
+        "nomeCategoria": "Rivenditore di biglietti della lotteria"
+    },
+    {
+        "verticale": "Negozi e shopping",
+        "nomeCategoria": "Stamperia"
+    },
+    {
+        "verticale": "Negozi e shopping",
+        "nomeCategoria": "Studio di tatuaggi"
+    },
+    {
+        "verticale": "Negozi e shopping",
+        "nomeCategoria": "Tabaccheria"
+    },
+    {
+        "verticale": "Ristorazione",
+        "nomeCategoria": "Bar"
+    },
+    {
+        "verticale": "Ristorazione",
+        "nomeCategoria": "Bar e grill"
+    },
+    {
+        "verticale": "Ristorazione",
+        "nomeCategoria": "Bar sportivo"
+    },
+    {
+        "verticale": "Ristorazione",
+        "nomeCategoria": "Barbecue"
+    },
+    {
+        "verticale": "Ristorazione",
+        "nomeCategoria": "Caffè"
+    },
+    {
+        "verticale": "Ristorazione",
+        "nomeCategoria": "Diner"
+    },
+    {
+        "verticale": "Ristorazione",
+        "nomeCategoria": "Fast food"
+    },
+    {
+        "verticale": "Ristorazione",
+        "nomeCategoria": "Fornaio"
+    },
+    {
+        "verticale": "Ristorazione",
+        "nomeCategoria": "Gastronomia"
+    },
+    {
+        "verticale": "Ristorazione",
+        "nomeCategoria": "Gelateria"
+    },
+    {
+        "verticale": "Ristorazione",
+        "nomeCategoria": "Hamburger"
+    },
+    {
+        "verticale": "Ristorazione",
+        "nomeCategoria": "Paninoteca"
+    },
+    {
+        "verticale": "Ristorazione",
+        "nomeCategoria": "Pizzeria"
+    },
+    {
+        "verticale": "Ristorazione",
+        "nomeCategoria": "Pizzeria a domicilio"
+    },
+    {
+        "verticale": "Ristorazione",
+        "nomeCategoria": "Pub"
+    },
+    {
+        "verticale": "Ristorazione",
+        "nomeCategoria": "Ristorante"
+    },
+    {
+        "verticale": "Ristorazione",
+        "nomeCategoria": "Ristorante americano"
+    },
+    {
+        "verticale": "Ristorazione",
+        "nomeCategoria": "Ristorante asiatico"
+    },
+    {
+        "verticale": "Ristorazione",
+        "nomeCategoria": "Ristorante cinese"
+    },
+    {
+        "verticale": "Ristorazione",
+        "nomeCategoria": "Ristorante con buffet"
+    },
+    {
+        "verticale": "Ristorazione",
+        "nomeCategoria": "Ristorante coreano"
+    },
+    {
+        "verticale": "Ristorazione",
+        "nomeCategoria": "Ristorante da asporto"
+    },
+    {
+        "verticale": "Ristorazione",
+        "nomeCategoria": "Ristorante di ali di pollo"
+    },
+    {
+        "verticale": "Ristorazione",
+        "nomeCategoria": "Ristorante di pesce"
+    },
+    {
+        "verticale": "Ristorazione",
+        "nomeCategoria": "Ristorante di sushi"
+    },
+    {
+        "verticale": "Ristorazione",
+        "nomeCategoria": "Ristorante francese"
+    },
+    {
+        "verticale": "Ristorazione",
+        "nomeCategoria": "Ristorante giapponese"
+    },
+    {
+        "verticale": "Ristorazione",
+        "nomeCategoria": "Ristorante indiano"
+    },
+    {
+        "verticale": "Ristorazione",
+        "nomeCategoria": "Ristorante italiano"
+    },
+    {
+        "verticale": "Ristorazione",
+        "nomeCategoria": "Ristorante messicano"
+    },
+    {
+        "verticale": "Ristorazione",
+        "nomeCategoria": "Ristorante per famiglie"
+    },
+    {
+        "verticale": "Ristorazione",
+        "nomeCategoria": "Ristorante ramen"
+    },
+    {
+        "verticale": "Ristorazione",
+        "nomeCategoria": "Ristorante specializzato in colazioni"
+    },
+    {
+        "verticale": "Ristorazione",
+        "nomeCategoria": "Ristorante tailandese"
+    },
+    {
+        "verticale": "Ristorazione",
+        "nomeCategoria": "Sala da tè"
+    },
+    {
+        "verticale": "Ristorazione",
+        "nomeCategoria": "Specialità pollo"
+    },
+    {
+        "verticale": "Ristorazione",
+        "nomeCategoria": "Steakhouse"
+    },
+    {
+        "verticale": "Servizio",
+        "nomeCategoria": "Agenti Immobiliari"
+    },
+    {
+        "verticale": "Servizio",
+        "nomeCategoria": "Agenzia di marketing"
+    },
+    {
+        "verticale": "Servizio",
+        "nomeCategoria": "Agenzia di pubblicità"
+    },
+    {
+        "verticale": "Servizio",
+        "nomeCategoria": "Agenzia funebre"
+    },
+    {
+        "verticale": "Servizio",
+        "nomeCategoria": "Agenzia immobiliare"
+    },
+    {
+        "verticale": "Servizio",
+        "nomeCategoria": "Agenzia per il lavoro"
+    },
+    {
+        "verticale": "Servizio",
+        "nomeCategoria": "Agenzia viaggi"
+    },
+    {
+        "verticale": "Servizio",
+        "nomeCategoria": "Appaltatore diretto"
+    },
+    {
+        "verticale": "Servizio",
+        "nomeCategoria": "Arredatore d'interni"
+    },
+    {
+        "verticale": "Servizio",
+        "nomeCategoria": "Asilo nido"
+    },
+    {
+        "verticale": "Servizio",
+        "nomeCategoria": "Assistenza computer"
+    },
+    {
+        "verticale": "Servizio",
+        "nomeCategoria": "Autolavaggio"
+    },
+    {
+        "verticale": "Servizio",
+        "nomeCategoria": "Azienda di autotrasporti"
+    },
+    {
+        "verticale": "Servizio",
+        "nomeCategoria": "Azienda per la gestione delle proprietà immobiliari"
+    },
+    {
+        "verticale": "Servizio",
+        "nomeCategoria": "Barbiere"
+    },
+    {
+        "verticale": "Servizio",
+        "nomeCategoria": "Carrozzeria"
+    },
+    {
+        "verticale": "Servizio",
+        "nomeCategoria": "Casa editrice di giornali"
+    },
+    {
+        "verticale": "Servizio",
+        "nomeCategoria": "Centro estetico"
+    },
+    {
+        "verticale": "Servizio",
+        "nomeCategoria": "Centro informazioni turistiche"
+    },
+    {
+        "verticale": "Servizio",
+        "nomeCategoria": "Corriere"
+    },
+    {
+        "verticale": "Servizio",
+        "nomeCategoria": "Costruttore di case"
+    },
+    {
+        "verticale": "Servizio",
+        "nomeCategoria": "Costruttore di tetti"
+    },
+    {
+        "verticale": "Servizio",
+        "nomeCategoria": "Costruttore immobiliare"
+    },
+    {
+        "verticale": "Servizio",
+        "nomeCategoria": "Editore"
+    },
+    {
+        "verticale": "Servizio",
+        "nomeCategoria": "Elettricista"
+    },
+    {
+        "verticale": "Servizio",
+        "nomeCategoria": "Fabbricante di armadi"
+    },
+    {
+        "verticale": "Servizio",
+        "nomeCategoria": "Fotografo"
+    },
+    {
+        "verticale": "Servizio",
+        "nomeCategoria": "Idraulico"
+    },
+    {
+        "verticale": "Servizio",
+        "nomeCategoria": "Imbianchino"
+    },
+    {
+        "verticale": "Servizio",
+        "nomeCategoria": "Impresa di costruzioni"
+    },
+    {
+        "verticale": "Servizio",
+        "nomeCategoria": "Massaggio-terapista"
+    },
+    {
+        "verticale": "Servizio",
+        "nomeCategoria": "Meccanico e assistenza automobili"
+    },
+    {
+        "verticale": "Servizio",
+        "nomeCategoria": "Negozio di pneumatici"
+    },
+    {
+        "verticale": "Servizio",
+        "nomeCategoria": "Officina autoriparazioni"
+    },
+    {
+        "verticale": "Servizio",
+        "nomeCategoria": "Organizzatore di eventi"
+    },
+    {
+        "verticale": "Servizio",
+        "nomeCategoria": "Palestra"
+    },
+    {
+        "verticale": "Servizio",
+        "nomeCategoria": "Pay TV"
+    },
+    {
+        "verticale": "Servizio",
+        "nomeCategoria": "Piscina pubblica"
+    },
+    {
+        "verticale": "Servizio",
+        "nomeCategoria": "Provider di servizi Internet"
+    },
+    {
+        "verticale": "Servizio",
+        "nomeCategoria": "Provider di servizi per le telecomunicazioni"
+    },
+    {
+        "verticale": "Servizio",
+        "nomeCategoria": "Pulitura a secco"
+    },
+    {
+        "verticale": "Servizio",
+        "nomeCategoria": "Salone da parrucchiere"
+    },
+    {
+        "verticale": "Servizio",
+        "nomeCategoria": "Salone di manicure"
+    },
+    {
+        "verticale": "Servizio",
+        "nomeCategoria": "Sarto"
+    },
+    {
+        "verticale": "Servizio",
+        "nomeCategoria": "Scuola di danza"
+    },
+    {
+        "verticale": "Servizio",
+        "nomeCategoria": "Servizi di pulizia per la casa"
+    },
+    {
+        "verticale": "Servizio",
+        "nomeCategoria": "Servizio di catering"
+    },
+    {
+        "verticale": "Servizio",
+        "nomeCategoria": "Servizio di disinfestazione"
+    },
+    {
+        "verticale": "Servizio",
+        "nomeCategoria": "Servizio di lavanderia"
+    },
+    {
+        "verticale": "Servizio",
+        "nomeCategoria": "Servizio di pulizia"
+    },
+    {
+        "verticale": "Servizio",
+        "nomeCategoria": "Servizio di spedizione di merci"
+    },
+    {
+        "verticale": "Servizio",
+        "nomeCategoria": "Spa"
+    },
+    {
+        "verticale": "Servizio",
+        "nomeCategoria": "Spedizioni e corrispondenza"
+    },
+    {
+        "verticale": "Servizio",
+        "nomeCategoria": "Spedizioniere marittimo"
+    },
+    {
+        "verticale": "Servizio",
+        "nomeCategoria": "Sportello automatico per noleggio di film"
+    },
+    {
+        "verticale": "Servizio",
+        "nomeCategoria": "Stamperia commerciale"
+    },
+    {
+        "verticale": "Servizio",
+        "nomeCategoria": "Ufficio postale"
+    },
+    {
+        "verticale": "Servizio professionale",
+        "nomeCategoria": "Appaltatore"
+    },
+    {
+        "verticale": "Servizio professionale",
+        "nomeCategoria": "Architetto"
+    },
+    {
+        "verticale": "Servizio professionale",
+        "nomeCategoria": "Avvocato"
+    },
+    {
+        "verticale": "Servizio professionale",
+        "nomeCategoria": "Azienda informatica"
+    },
+    {
+        "verticale": "Servizio professionale",
+        "nomeCategoria": "Consulente"
+    },
+    {
+        "verticale": "Servizio professionale",
+        "nomeCategoria": "Consulente aziendale"
+    },
+    {
+        "verticale": "Servizio professionale",
+        "nomeCategoria": "Consulente informatico"
+    },
+    {
+        "verticale": "Servizio professionale",
+        "nomeCategoria": "Consulente ingegneristico"
+    },
+    {
+        "verticale": "Servizio professionale",
+        "nomeCategoria": "Ingegnere"
+    },
+    {
+        "verticale": "Servizio professionale",
+        "nomeCategoria": "Notaio pubblico"
+    },
+    {
+        "verticale": "Servizio professionale",
+        "nomeCategoria": "Paesaggista"
+    },
+    {
+        "verticale": "Servizio professionale",
+        "nomeCategoria": "Produzione e istallazione di sistemi di condizionamento"
+    },
+    {
+        "verticale": "Servizio professionale",
+        "nomeCategoria": "Servizi legali"
+    },
+    {
+        "verticale": "Servizio professionale",
+        "nomeCategoria": "Servizio di marketing su Internet"
+    },
+    {
+        "verticale": "Servizio professionale",
+        "nomeCategoria": "Web designer"
+    },
+    {
+        "verticale": "Struttura ricettiva",
+        "nomeCategoria": "Albergo"
+    },
+    {
+        "verticale": "Struttura ricettiva",
+        "nomeCategoria": "Albergo di lusso"
+    },
+    {
+        "verticale": "Struttura ricettiva",
+        "nomeCategoria": "Area di sosta per camper"
+    },
+    {
+        "verticale": "Struttura ricettiva",
+        "nomeCategoria": "Bed & Breakfast"
+    },
+    {
+        "verticale": "Struttura ricettiva",
+        "nomeCategoria": "Campeggio"
+    },
+    {
+        "verticale": "Struttura ricettiva",
+        "nomeCategoria": "Hotel economico"
+    },
+    {
+        "verticale": "Struttura ricettiva",
+        "nomeCategoria": "Hotel per soggiorno prolungato"
+    },
+    {
+        "verticale": "Struttura ricettiva",
+        "nomeCategoria": "Località turistica"
+    },
+    {
+        "verticale": "Struttura ricettiva",
+        "nomeCategoria": "Motel"
+    },
+    {
+        "verticale": "Struttura ricettiva",
+        "nomeCategoria": "Ostello"
+    },
+    {
+        "verticale": "Struttura ricettiva",
+        "nomeCategoria": "Pensione"
+    },
+    {
+        "verticale": "Struttura ricettiva",
+        "nomeCategoria": "Stazione balneare"
+    },
+    {
+        "verticale": "Trasporti",
+        "nomeCategoria": "Agenzia di noleggio auto"
+    },
+    {
+        "verticale": "Trasporti",
+        "nomeCategoria": "Agenzia per il noleggio di camion"
+    },
+    {
+        "verticale": "Trasporti",
+        "nomeCategoria": "Area di parcheggio"
+    },
+    {
+        "verticale": "Trasporti",
+        "nomeCategoria": "Autorimessa"
+    },
+    {
+        "verticale": "Trasporti",
+        "nomeCategoria": "Autoscuola"
+    },
+    {
+        "verticale": "Trasporti",
+        "nomeCategoria": "Benzinaio"
+    },
+    {
+        "verticale": "Trasporti",
+        "nomeCategoria": "Servizi di trasporto"
+    },
+    {
+        "verticale": "Trasporti",
+        "nomeCategoria": "Servizio taxi"
+    }
+]

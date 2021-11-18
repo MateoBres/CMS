@@ -1,0 +1,19 @@
+// Fonts
+// @import url('https://fonts.googleapis.com/css?family=Nunito');
+// Variables
+@import './variables';
+//-fontawesome
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
+@import '~@fortawesome/fontawesome-free/scss/brands';
+@import '~@fortawesome/fontawesome-free/scss/regular';
+@import '~@fortawesome/fontawesome-free/scss/solid';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&display=swap');
+
+//override Bootstrap grid
+// $grid-breakpoints: ( xs: 0, sm: 300px, md: 768px, lg: 992px, xl: 1200px, xxl: 1900px);
+// $container-max-widths: ( sm: 300px, md: 720px, lg: 960px, xl: 1140px, xxl: 1610px);
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+//@import './newlayout.scss';
+@import './delivery.scss';
+

@@ -1,0 +1,33 @@
+---
+- hosts: spesavicino
+  become: true
+  tasks:
+  
+    - name: 'Cloning repository'
+      git:
+        repo: https://pierangelo1982:alnitek82@bitbucket.org/attividigitaliteam/delivery_app.git
+        dest: /var/www/spesavicino-docker
+        update: yes
+        version: master
+      ignore_errors: yes
+      register: output
+
+    - name: 'Set Permissions'
+      command: "chmod -R 777 /var/www/spesavicino-docker/"
+
+    - name: create the spesavicino web container
+      docker_container:
+        name: "spesavicino"
+        image: attividigitali/spesavicino:latest
+        state: started
+        ports:
+          - "8000:80"
+        links:
+          - docker-mysql:db
+        volumes:
+          - /var/www/spesavicino-docker/public/:/var/www/html/public
+          - /var/www/spesavicino-docker/storage/:/var/www/html/storage
+        recreate: yes
+      register: output
+  
+

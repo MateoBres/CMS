@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@200;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&display=swap');
+#app-new {
+    .dark-opacity {
+        background-color: rgba(47, 47, 47, 0.5)
+    }
+    nav>ul>li {
+        float: left;
+        color: white;
+    }
+    .titolo {
+        font-family: 'Staatliches', cursive;
+        font-size: xx-large;
+        color: white;
+        text-align: center;
+    }
+    .testo {
+        font-family: 'Spartan', sans-serif;
+        color: white;
+        z-index: 50;
+        font-size: medium;
+        text-align: justify;
+    }
+    .testo-black {
+        font-family: 'Spartan', sans-serif;
+        color: black;
+        z-index: 50;
+        font-size: large;
+        text-align: justify;
+    }
+    .testo-color {
+        font-family: 'Spartan', sans-serif;
+        color: #e59e26;
+        font-size: x-large;
+        text-align: center;
+    }
+    .testo-footer {
+        font-family: 'Spartan', sans-serif;
+        color: white;
+        font-size: small;
+        text-align: left;
+    }
+    .testo-cover {
+        font-family: 'Spartan', sans-serif;
+        text-align: center;
+        color: white;
+        font-weight: 500;
+        /*font-size: xx-large;*/
+        font-size: 24pt;
+        z-index: 99;
+    }
+    .titolo-section {
+        color: #e59e26;
+        font-family: 'Spartan', sans-serif;
+        font-weight: 500;
+    }
+    .titolo-section2 {
+        color: #ffffff;
+        font-family: 'Spartan', sans-serif;
+        font-weight: 500;
+    }
+    .titolo-card {
+        text-align: center;
+        font-weight: 400;
+        color: #e59e26;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: 'Spartan', sans-serif;
+    }
+    .sottotitolo-card {
+        text-align: center;
+        font-weight: bold;
+        color: white;
+        font-size: 20px;
+        font-family: 'Spartan', sans-serif;
+    }
+    .testo-card {
+        text-align: center;
+        color: white;
+        font-size: 15px;
+        font-family: 'Spartan', sans-serif;
+    }
+    .changecolor:hover {
+        box-shadow: 5px 5px 5px black inset;
+    }
+    .button-start {
+        background-color: #e59e26;
+    }
+}

@@ -1,0 +1,91 @@
+pipeline {
+    environment {
+        registry = 'attividigitali/spesavicino'
+        registryCredential = 'dockerhubattividigitali'
+        dockerImage = ''
+    }
+    agent any
+    stages {
+        stage('Cloning Git') {
+            steps {
+                git branch: 'master', url: 'https://pierangelo1982:alnitek82@bitbucket.org/attividigitaliteam/delivery_app.git'
+            }
+        }
+        stage('Building image') {
+            steps{
+                script {
+                    // dockerImage = docker.build registry + ":$BUILD_NUMBER"
+                    dockerImage = docker.build registry + ":latest"
+                }
+            }
+        }
+        stage('Deploy Image') {
+            steps{
+                script {
+                    docker.withRegistry( '', registryCredential ) {
+                        dockerImage.push()
+                    }
+                }
+            }
+        }
+        stage('Remove Unused docker image') {
+            steps{
+                sh "docker rmi $registry:$BUILD_NUMBER || true"
+                sh "docker rmi $registry:latest || true"
+            }
+        }
+        stage('pull Image') {
+            steps{
+                script {
+                    docker.withRegistry( '', registryCredential ) {
+                        dockerImage.pull()
+                    }
+                }
+            }
+        }
+       stage('remove old container vps') {
+            steps {
+                sh "ssh -T root@64.225.109.93 docker rm -f spesavicino || true"
+            }
+        } 
+        stage('remove old images') {
+            steps {
+                sh "ssh -T root@64.225.109.93 docker image prune -a -f"
+            }
+        }
+        stage('call ansible for cloning repository on colibree machine') {
+            steps {
+                dir("ansible") {
+                    sh "ansible-playbook /var/lib/jenkins/workspace/ansible/spesavicino.yml"
+                }
+            }
+        }
+        stage('artisan optimize clear') {
+            steps {
+                sh "ssh -T root@64.225.109.93 docker exec spesavicino php artisan optimize:clear"
+            }
+        }
+        stage('artisan route:clear') {
+            steps {
+                sh "ssh -T root@64.225.109.93 docker exec spesavicino php artisan route:clear"
+            }
+        }
+        stage('php migrate') {
+            steps {
+                sh "ssh -T root@64.225.109.93 docker exec spesavicino php artisan migrate --force"
+            }
+        }
+        stage('php artisan passport:keys') {
+            steps {
+                sh "ssh -T root@64.225.109.93 docker exec spesavicino php artisan passport:keys"
+            }
+        }
+        stage('npm prod') {
+            steps {
+                sh "ssh -T root@64.225.109.93 docker exec spesavicino npm run prod"
+            }
+        }
+
+    } /* -- end stages -- */
+ } /*-- end pipeline -- */
+

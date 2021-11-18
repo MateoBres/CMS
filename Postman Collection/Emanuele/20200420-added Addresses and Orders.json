@@ -1,0 +1,1093 @@
+{
+	"info": {
+		"_postman_id": "132c74ee-4d5d-4c4a-8a16-7ba386bd0538",
+		"name": "delivery_app",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Addresses",
+			"item": [
+				{
+					"name": "/api/addresses - AddressController@index",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8000/api/addresses",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"addresses"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/api/addresses/{address} - AddressController@show",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8000/api/addresses/{address}",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"addresses",
+								"{address}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/api/addresses/create - AddressController@store",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {
+							"accept": true
+						}
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiNzIxNTViY2Q2NmM3ZGVjN2Y3OGIwZjY1MmM4YmU0YjVkMzAwNWQ3MzJlYTdjNzc4ZjlkYmIzNWNmMWU4OGYzYTI5NGM1NjZmZWQyZWU5YTIiLCJpYXQiOjE1ODgxNzYwMjgsIm5iZiI6MTU4ODE3NjAyOCwiZXhwIjoxNTg4MjYyNDI4LCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.UMCrhqCrpYRtEXw_srY1qf4F2HNLJOP1WQyFJD09lszB-XRP9_9pRaKBxhTUr794CEPGqZo38DWZ8jKh9hixqSj5IwxWHVyAC-bi-VCtLvlFup0aNj82bCVd-e-hPA1axoogrK6UndA33dO9vUSd3dYnDm_qhkaCyEOkGFoV6fxbBfEssAcRZY6EjYqr1KdAPiIQcFBdb6cV9X9erp7wYXgh7WHq8qdXXiOXBh9gwtQIX3KxB9oqQhjiaEQtZ0hVe5XRziQP2CZy60-sxIb8d9XeP1cuyHlqVONleepE0B4pkIxg7zqv0oICvnTP28Sdm_taiW_joYJlFOk0dxe_QGynk6fXDLc2DW8W1s90Q6YwJH7WFh8PyFRsXsbAQ783-cTDjqKJI-cDOK-BCPyAKZtzO2inaOV65XSlQGiuE0YKcMxn6BWCyq3U3EU5ZxNJdjf0WpoNm9bA-ZLqDRI8SKqBE14C5iJoH0wERpP-goDcmvBYX9_F0n5lPvnxivHQc78THfBBJA58seJIdbxIEbtJu8w3--Ww__liN3CsHua7HwBV_UJIrySvHca6ETObjzt-IrZN3EXOYYYNNvXfqZyl_Xx6ffiTJvyq_d5MAeYhpcoMhVgLEE7Po-qqpnF23hfzEwM2txw1X5JfsXbJzBye43tYTG_xbmSfbnqObPE",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"city\" : \"Brescia\",\n\t\"address\" : \"Via Volturno 12\",\n\t\"province\" : \"BS\",\n\t\"zip_code\" : \"25100\",\n\t\"user_id\" : \"\",\n\t\"retailer_id\" : \"2\"\n}\n\t ",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8000/api/addresses/create",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"addresses",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/api/addresses/{address} - AddressController@update",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiNzIxNTViY2Q2NmM3ZGVjN2Y3OGIwZjY1MmM4YmU0YjVkMzAwNWQ3MzJlYTdjNzc4ZjlkYmIzNWNmMWU4OGYzYTI5NGM1NjZmZWQyZWU5YTIiLCJpYXQiOjE1ODgxNzYwMjgsIm5iZiI6MTU4ODE3NjAyOCwiZXhwIjoxNTg4MjYyNDI4LCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.UMCrhqCrpYRtEXw_srY1qf4F2HNLJOP1WQyFJD09lszB-XRP9_9pRaKBxhTUr794CEPGqZo38DWZ8jKh9hixqSj5IwxWHVyAC-bi-VCtLvlFup0aNj82bCVd-e-hPA1axoogrK6UndA33dO9vUSd3dYnDm_qhkaCyEOkGFoV6fxbBfEssAcRZY6EjYqr1KdAPiIQcFBdb6cV9X9erp7wYXgh7WHq8qdXXiOXBh9gwtQIX3KxB9oqQhjiaEQtZ0hVe5XRziQP2CZy60-sxIb8d9XeP1cuyHlqVONleepE0B4pkIxg7zqv0oICvnTP28Sdm_taiW_joYJlFOk0dxe_QGynk6fXDLc2DW8W1s90Q6YwJH7WFh8PyFRsXsbAQ783-cTDjqKJI-cDOK-BCPyAKZtzO2inaOV65XSlQGiuE0YKcMxn6BWCyq3U3EU5ZxNJdjf0WpoNm9bA-ZLqDRI8SKqBE14C5iJoH0wERpP-goDcmvBYX9_F0n5lPvnxivHQc78THfBBJA58seJIdbxIEbtJu8w3--Ww__liN3CsHua7HwBV_UJIrySvHca6ETObjzt-IrZN3EXOYYYNNvXfqZyl_Xx6ffiTJvyq_d5MAeYhpcoMhVgLEE7Po-qqpnF23hfzEwM2txw1X5JfsXbJzBye43tYTG_xbmSfbnqObPE",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"city\" : \"Brescia\",\n\t\"address\" : \"Via Milano 120\",\n\t\"province\" : \"BS\",\n\t\"zip_code\" : \"25100\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8000/api/addresses/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"addresses",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/api/addresses/{address} - AddressController@destroy",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiNzIxNTViY2Q2NmM3ZGVjN2Y3OGIwZjY1MmM4YmU0YjVkMzAwNWQ3MzJlYTdjNzc4ZjlkYmIzNWNmMWU4OGYzYTI5NGM1NjZmZWQyZWU5YTIiLCJpYXQiOjE1ODgxNzYwMjgsIm5iZiI6MTU4ODE3NjAyOCwiZXhwIjoxNTg4MjYyNDI4LCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.UMCrhqCrpYRtEXw_srY1qf4F2HNLJOP1WQyFJD09lszB-XRP9_9pRaKBxhTUr794CEPGqZo38DWZ8jKh9hixqSj5IwxWHVyAC-bi-VCtLvlFup0aNj82bCVd-e-hPA1axoogrK6UndA33dO9vUSd3dYnDm_qhkaCyEOkGFoV6fxbBfEssAcRZY6EjYqr1KdAPiIQcFBdb6cV9X9erp7wYXgh7WHq8qdXXiOXBh9gwtQIX3KxB9oqQhjiaEQtZ0hVe5XRziQP2CZy60-sxIb8d9XeP1cuyHlqVONleepE0B4pkIxg7zqv0oICvnTP28Sdm_taiW_joYJlFOk0dxe_QGynk6fXDLc2DW8W1s90Q6YwJH7WFh8PyFRsXsbAQ783-cTDjqKJI-cDOK-BCPyAKZtzO2inaOV65XSlQGiuE0YKcMxn6BWCyq3U3EU5ZxNJdjf0WpoNm9bA-ZLqDRI8SKqBE14C5iJoH0wERpP-goDcmvBYX9_F0n5lPvnxivHQc78THfBBJA58seJIdbxIEbtJu8w3--Ww__liN3CsHua7HwBV_UJIrySvHca6ETObjzt-IrZN3EXOYYYNNvXfqZyl_Xx6ffiTJvyq_d5MAeYhpcoMhVgLEE7Po-qqpnF23hfzEwM2txw1X5JfsXbJzBye43tYTG_xbmSfbnqObPE",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8000/api/addresses/3",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"addresses",
+								"3"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Items",
+			"item": [
+				{
+					"name": "/api/retails/{retailer}/items - ItemController@index",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {
+							"accept": true
+						}
+					},
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:8000/api/retails/1/items",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"retails",
+								"1",
+								"items"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/api/retails/{retailer}/items - ItemController@store",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {
+							"accept": true
+						}
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiZDcxN2RkODBhMWM0OGEyZDk0ODQwNGU1OTEzNDM0YTdmN2UzYTk2OTU2M2JmM2JlODBiYjZiNzgzZGU3YzRmYzNmYjlkYTkyODNlNzA5ZjkiLCJpYXQiOjE1ODgxNDM3MjgsIm5iZiI6MTU4ODE0MzcyOCwiZXhwIjoxNTg4MjMwMTI0LCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.h2vn68Y5qVZw0eoUzoY3slOO4EqAyf1eoJCpKK5eq1siF5hKoH6Qo2FoaWNhKg4JYayFX7qFiGpR8r8QbaTia46ZJxd8Hc560A-rxPIhVL5ot8939yEW0vVRXoljvyZfk7Vl9Bw2FIJfH5iMC1kRcR-UowISdu2LS_sDvoojbWV1-OznKxn_sp_YvzIlvsSDY_Z8365p1LLrKVpO64qX0tNx8CQVKZLCvvfGahEFCWHpsoaxb2Ou-SYfUVKrenC0NpWIwnGufVm29zRZ_KRxg_TS37B4sQLsPj1qwf2ob2imFYBuI92vyq2-JdrRdEeoHcCytWsCZ7mWdhHcqVPtsKjgGUwDsqBC3KuDbbK7dhV7QxYFZXsEkKiV4BjnCE8G6Jca2kK_1Ks6OnSJeqnIrWyY2p7Z758m9-pG7TAgrVUqgz-UTOoyWJckSuG52k543zpZucfTMMxLY8vWZb1holSQLtScGmaCwUqmrBViD57j3qeJAcqiRZBE9pv6tnn6utHm_mFakyI-6_uEdK8G6rwv_15P_YlgjQTIIxG20hOTazELOwCbfOmIg76cwpuKJ0IPBvGDE_taxYuZDDstYmTHPBOnT3hmhgRAyj2iyzW9-8d68EqcS_nn20YU4B0cNnllVe7i7btjegW_QFx9cUtxpaRtf4nP_GjPQfWdur0",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"name\" : \"Item 1\",\n\t\"description\" : \"Test item\",\n\t\"price\": 20000\n}"
+						},
+						"url": {
+							"raw": "http://localhost:8000/api/retails/{retailer}/items/create",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"retails",
+								"{retailer}",
+								"items",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/api/retails/{retailer}/items/{item} - ItemController@show",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8000/api/retails/{retailer}/items/{item}",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"retails",
+								"{retailer}",
+								"items",
+								"{item}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/api/retails/{retailer}/items/{item} - ItemController@update",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {
+							"accept": true
+						}
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiZDcxN2RkODBhMWM0OGEyZDk0ODQwNGU1OTEzNDM0YTdmN2UzYTk2OTU2M2JmM2JlODBiYjZiNzgzZGU3YzRmYzNmYjlkYTkyODNlNzA5ZjkiLCJpYXQiOjE1ODgxNDM3MjgsIm5iZiI6MTU4ODE0MzcyOCwiZXhwIjoxNTg4MjMwMTI0LCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.h2vn68Y5qVZw0eoUzoY3slOO4EqAyf1eoJCpKK5eq1siF5hKoH6Qo2FoaWNhKg4JYayFX7qFiGpR8r8QbaTia46ZJxd8Hc560A-rxPIhVL5ot8939yEW0vVRXoljvyZfk7Vl9Bw2FIJfH5iMC1kRcR-UowISdu2LS_sDvoojbWV1-OznKxn_sp_YvzIlvsSDY_Z8365p1LLrKVpO64qX0tNx8CQVKZLCvvfGahEFCWHpsoaxb2Ou-SYfUVKrenC0NpWIwnGufVm29zRZ_KRxg_TS37B4sQLsPj1qwf2ob2imFYBuI92vyq2-JdrRdEeoHcCytWsCZ7mWdhHcqVPtsKjgGUwDsqBC3KuDbbK7dhV7QxYFZXsEkKiV4BjnCE8G6Jca2kK_1Ks6OnSJeqnIrWyY2p7Z758m9-pG7TAgrVUqgz-UTOoyWJckSuG52k543zpZucfTMMxLY8vWZb1holSQLtScGmaCwUqmrBViD57j3qeJAcqiRZBE9pv6tnn6utHm_mFakyI-6_uEdK8G6rwv_15P_YlgjQTIIxG20hOTazELOwCbfOmIg76cwpuKJ0IPBvGDE_taxYuZDDstYmTHPBOnT3hmhgRAyj2iyzW9-8d68EqcS_nn20YU4B0cNnllVe7i7btjegW_QFx9cUtxpaRtf4nP_GjPQfWdur0",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"warning": "This is a duplicate header and will be overridden by the Content-Type header generated by Postman.",
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"name\" : \"Item 01\",\n\t\"description\" : \"Test Item 01\",\n\t\"price\" : 1000\n}"
+						},
+						"url": {
+							"raw": "http://localhost:8000/api/retails/1/items/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"retails",
+								"1",
+								"items",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/api/retails/{retailer}/items/{item} - ItemController@destroy",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8000/api/retails/{retailer}/items/{item}",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"retails",
+								"{retailer}",
+								"items",
+								"{item}"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Orders",
+			"item": [
+				{
+					"name": "/api/orders - OrderController@index",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8000/api/orders",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"orders"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/api/orders/{order} - OrderController@show",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8000/api/orders/{order}",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"orders",
+								"{order}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/api/orders/create - OrderController@store",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {
+							"accept": true
+						}
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiNzIxNTViY2Q2NmM3ZGVjN2Y3OGIwZjY1MmM4YmU0YjVkMzAwNWQ3MzJlYTdjNzc4ZjlkYmIzNWNmMWU4OGYzYTI5NGM1NjZmZWQyZWU5YTIiLCJpYXQiOjE1ODgxNzYwMjgsIm5iZiI6MTU4ODE3NjAyOCwiZXhwIjoxNTg4MjYyNDI4LCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.UMCrhqCrpYRtEXw_srY1qf4F2HNLJOP1WQyFJD09lszB-XRP9_9pRaKBxhTUr794CEPGqZo38DWZ8jKh9hixqSj5IwxWHVyAC-bi-VCtLvlFup0aNj82bCVd-e-hPA1axoogrK6UndA33dO9vUSd3dYnDm_qhkaCyEOkGFoV6fxbBfEssAcRZY6EjYqr1KdAPiIQcFBdb6cV9X9erp7wYXgh7WHq8qdXXiOXBh9gwtQIX3KxB9oqQhjiaEQtZ0hVe5XRziQP2CZy60-sxIb8d9XeP1cuyHlqVONleepE0B4pkIxg7zqv0oICvnTP28Sdm_taiW_joYJlFOk0dxe_QGynk6fXDLc2DW8W1s90Q6YwJH7WFh8PyFRsXsbAQ783-cTDjqKJI-cDOK-BCPyAKZtzO2inaOV65XSlQGiuE0YKcMxn6BWCyq3U3EU5ZxNJdjf0WpoNm9bA-ZLqDRI8SKqBE14C5iJoH0wERpP-goDcmvBYX9_F0n5lPvnxivHQc78THfBBJA58seJIdbxIEbtJu8w3--Ww__liN3CsHua7HwBV_UJIrySvHca6ETObjzt-IrZN3EXOYYYNNvXfqZyl_Xx6ffiTJvyq_d5MAeYhpcoMhVgLEE7Po-qqpnF23hfzEwM2txw1X5JfsXbJzBye43tYTG_xbmSfbnqObPE",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"code\" : \"\",\n\t\"retailer_id\" : \"\",\n\t\"user_id\" : \"\",\n\t\"address_id\" : \"\",\n\t\"status_id\" : \"\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:8000/api/orders/create",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"orders",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/api/orders/{order} - OrderController@update",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {
+							"accept": true
+						}
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiNzIxNTViY2Q2NmM3ZGVjN2Y3OGIwZjY1MmM4YmU0YjVkMzAwNWQ3MzJlYTdjNzc4ZjlkYmIzNWNmMWU4OGYzYTI5NGM1NjZmZWQyZWU5YTIiLCJpYXQiOjE1ODgxNzYwMjgsIm5iZiI6MTU4ODE3NjAyOCwiZXhwIjoxNTg4MjYyNDI4LCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.UMCrhqCrpYRtEXw_srY1qf4F2HNLJOP1WQyFJD09lszB-XRP9_9pRaKBxhTUr794CEPGqZo38DWZ8jKh9hixqSj5IwxWHVyAC-bi-VCtLvlFup0aNj82bCVd-e-hPA1axoogrK6UndA33dO9vUSd3dYnDm_qhkaCyEOkGFoV6fxbBfEssAcRZY6EjYqr1KdAPiIQcFBdb6cV9X9erp7wYXgh7WHq8qdXXiOXBh9gwtQIX3KxB9oqQhjiaEQtZ0hVe5XRziQP2CZy60-sxIb8d9XeP1cuyHlqVONleepE0B4pkIxg7zqv0oICvnTP28Sdm_taiW_joYJlFOk0dxe_QGynk6fXDLc2DW8W1s90Q6YwJH7WFh8PyFRsXsbAQ783-cTDjqKJI-cDOK-BCPyAKZtzO2inaOV65XSlQGiuE0YKcMxn6BWCyq3U3EU5ZxNJdjf0WpoNm9bA-ZLqDRI8SKqBE14C5iJoH0wERpP-goDcmvBYX9_F0n5lPvnxivHQc78THfBBJA58seJIdbxIEbtJu8w3--Ww__liN3CsHua7HwBV_UJIrySvHca6ETObjzt-IrZN3EXOYYYNNvXfqZyl_Xx6ffiTJvyq_d5MAeYhpcoMhVgLEE7Po-qqpnF23hfzEwM2txw1X5JfsXbJzBye43tYTG_xbmSfbnqObPE",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"code\" : \"\",\n\t\"retailer_id\" : \"\",\n\t\"user_id\" : \"\",\n\t\"address_id\" : \"\",\n\t\"status_id\" : \"\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:8000/api/orders/{order}",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"orders",
+								"{order}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/api/orders/{order} - OrderContoller@destroy",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8000/api/orders/{order}",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"orders",
+								"{order}"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Retailers",
+			"item": [
+				{
+					"name": "/api/retails - RetailerController@index",
+					"protocolProfileBehavior": {
+						"followRedirects": false,
+						"disabledSystemHeaders": {
+							"accept": true
+						}
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiMTRhYjc3YWViODgzMDQ3YTU4ZmZkNGRkN2ZlYTYzMDQ4ZTc5YmRiMTRlOGY3ZmM1MzYzM2Q3NTk5ZjM5YzRkNWQwZjZmMTA2ZDVmN2IxZjYiLCJpYXQiOjE1ODgwNTgwNzksIm5iZiI6MTU4ODA1ODA3OSwiZXhwIjoxNTg4MDYxNjc3LCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.auCPCJH06sRRnOR1XkRbIWykwo6IsNXXMuQm_kxUOM-PR4pCqoHdOoLz8ULqCwjUdxgrUCxlue3ELUQDsJmP1Na_Wc17IFEY8T_e1xqNx8Bi7HrlbHKuvE9JBpdtgsFxHbFR6zznGge4O89pDjWUGT0NSrdH2fpmzUUO71Alj2S6wZ40w9iHyVjs6YgWGjlFNsiFaUEaeGCWOOA2HvmD6cDFzu5p-X5xqG7Fe2hlyhpUsWdhIdGtMq3cjMaPK69dfnHoogYecTwLSQZmqixfOAVcxn4SEuMfGNXhYwidRX48-W_tajih-Ch_NSlO44PDp1hzo5r_xK1ytfFsm6aDwZjYfVG-e-EjHYHwrK62utYIQc5Ty0q6BgDUeez8G93AcArSKEbWatxRj0z6HypjKsmJNOeJB2zLKme-Fo_v9j_AFRHkIZPalGBTgoUiZePBCgUUNLHkLlaLYZl3TFKDZETR2Ae3TqaXLwI_NwcHLWN9W6Vxottp2qmsyqMpbsg1lC6yIpe7s4c0sLTzumYcb-NTUmvHnC2WC3tiV1pfuSiSLOxqa9MAJ8TDG1EhadNxZdfvDJ7Sost5UK_QbMsy8juOXFcFeE-UMFxFbjcE7usx26L42WJ8iqVNDcBTc4Wb1tL56B1Ts9VFYSjSEuuAcxqTzgTkbZPUfnSkziDJZzY",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:8000/api/retails",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"retails"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/api/retails/{zip} - RetailerController@index_by_zip",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {
+							"accept": true
+						}
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiZDMwZjY0YjhiNjllOTUxNmVmOGQ5ZmZjMjVhM2QyMjVjNGM1ZGVhOWQ2ZTM5N2M4N2Q5YjBhMjIxMGY0ODQ0MGM1ODdmZjljOGQxYWI5MjIiLCJpYXQiOjE1ODgwNjAyNzMsIm5iZiI6MTU4ODA2MDI3MywiZXhwIjoxNTg4MDYzODcyLCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.OYUxS-Drx_mUJP4Xq-8Gy91y6EtfK2xQthlR895AI4I5kwofu5xGtezROgQYUIpVQtfWIqYlwOZh90oCQSdgJOAETpX0WBUYS92mqVbyWEsbvocYT2CftgW7Il7dudov7iKM82mSNvUzJ220YjCgGYY01iAcBBcDz8-lycv6nGyHMMfTNQ5v5sUBzjiuKdTNBPeg-bDLWfg7LQYjrvWhRWtlJvmCY3Cs0OHMELTTAEgKXrc3-hJzyzW5wYjonsgoglERILCfV-oiows269P_SoqV8c7XU7_-OFo1RRhYHmu3e5J6M2MiMNua_oi02aZDcgiKYV97O9rSI-6-aIyfvM8oNBLj5wP_1MMeDwPv6STWOkRF0EhjTHv6SzKPlGMi9_H1za-YrWDWIJcNivy_3MdbZPfjrB5kS4OOh71Gtc7v1iNjrc9FnYzAMrewGB10K3Kei8vRB2GTvJ1WqoKYF6rcoKk0PFdyvCtNYG9pKFOp8ACIHv5vcoNHjXd3FedhmeYNrK_-fme7z6RMvE_df65Um4z-Ral785m0U6sqyo0Uvp8cZA4w0EE6UNMdZy7yeTD66Iow0Deb0gUSG6ha_DavdPcjSfvwFfRr1ZijFXeGjojjeF_D4mU3DKssVtXW7Hdx8bORbAdQgUgfXiSR9nnPxu1DnXJAMUWPHaL3pZQ",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:8000/api/retails/zip_code/25136",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"retails",
+								"zip_code",
+								"25136"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/api/retails/create - RetailerController@store",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {
+							"accept": true
+						}
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiMTRhYjc3YWViODgzMDQ3YTU4ZmZkNGRkN2ZlYTYzMDQ4ZTc5YmRiMTRlOGY3ZmM1MzYzM2Q3NTk5ZjM5YzRkNWQwZjZmMTA2ZDVmN2IxZjYiLCJpYXQiOjE1ODgwNTgwNzksIm5iZiI6MTU4ODA1ODA3OSwiZXhwIjoxNTg4MDYxNjc3LCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.auCPCJH06sRRnOR1XkRbIWykwo6IsNXXMuQm_kxUOM-PR4pCqoHdOoLz8ULqCwjUdxgrUCxlue3ELUQDsJmP1Na_Wc17IFEY8T_e1xqNx8Bi7HrlbHKuvE9JBpdtgsFxHbFR6zznGge4O89pDjWUGT0NSrdH2fpmzUUO71Alj2S6wZ40w9iHyVjs6YgWGjlFNsiFaUEaeGCWOOA2HvmD6cDFzu5p-X5xqG7Fe2hlyhpUsWdhIdGtMq3cjMaPK69dfnHoogYecTwLSQZmqixfOAVcxn4SEuMfGNXhYwidRX48-W_tajih-Ch_NSlO44PDp1hzo5r_xK1ytfFsm6aDwZjYfVG-e-EjHYHwrK62utYIQc5Ty0q6BgDUeez8G93AcArSKEbWatxRj0z6HypjKsmJNOeJB2zLKme-Fo_v9j_AFRHkIZPalGBTgoUiZePBCgUUNLHkLlaLYZl3TFKDZETR2Ae3TqaXLwI_NwcHLWN9W6Vxottp2qmsyqMpbsg1lC6yIpe7s4c0sLTzumYcb-NTUmvHnC2WC3tiV1pfuSiSLOxqa9MAJ8TDG1EhadNxZdfvDJ7Sost5UK_QbMsy8juOXFcFeE-UMFxFbjcE7usx26L42WJ8iqVNDcBTc4Wb1tL56B1Ts9VFYSjSEuuAcxqTzgTkbZPUfnSkziDJZzY",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"warning": "This is a duplicate header and will be overridden by the Content-Type header generated by Postman.",
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "name",
+									"value": "Retailer 02",
+									"type": "text"
+								},
+								{
+									"key": "vat",
+									"value": "01987654321",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:8000/api/retails/create",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"retails",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/api/retails/{retailer_id} - RetailerController@show",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {
+							"accept": true
+						}
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiMTRhYjc3YWViODgzMDQ3YTU4ZmZkNGRkN2ZlYTYzMDQ4ZTc5YmRiMTRlOGY3ZmM1MzYzM2Q3NTk5ZjM5YzRkNWQwZjZmMTA2ZDVmN2IxZjYiLCJpYXQiOjE1ODgwNTgwNzksIm5iZiI6MTU4ODA1ODA3OSwiZXhwIjoxNTg4MDYxNjc3LCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.auCPCJH06sRRnOR1XkRbIWykwo6IsNXXMuQm_kxUOM-PR4pCqoHdOoLz8ULqCwjUdxgrUCxlue3ELUQDsJmP1Na_Wc17IFEY8T_e1xqNx8Bi7HrlbHKuvE9JBpdtgsFxHbFR6zznGge4O89pDjWUGT0NSrdH2fpmzUUO71Alj2S6wZ40w9iHyVjs6YgWGjlFNsiFaUEaeGCWOOA2HvmD6cDFzu5p-X5xqG7Fe2hlyhpUsWdhIdGtMq3cjMaPK69dfnHoogYecTwLSQZmqixfOAVcxn4SEuMfGNXhYwidRX48-W_tajih-Ch_NSlO44PDp1hzo5r_xK1ytfFsm6aDwZjYfVG-e-EjHYHwrK62utYIQc5Ty0q6BgDUeez8G93AcArSKEbWatxRj0z6HypjKsmJNOeJB2zLKme-Fo_v9j_AFRHkIZPalGBTgoUiZePBCgUUNLHkLlaLYZl3TFKDZETR2Ae3TqaXLwI_NwcHLWN9W6Vxottp2qmsyqMpbsg1lC6yIpe7s4c0sLTzumYcb-NTUmvHnC2WC3tiV1pfuSiSLOxqa9MAJ8TDG1EhadNxZdfvDJ7Sost5UK_QbMsy8juOXFcFeE-UMFxFbjcE7usx26L42WJ8iqVNDcBTc4Wb1tL56B1Ts9VFYSjSEuuAcxqTzgTkbZPUfnSkziDJZzY",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:8000/api/retails/3",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"retails",
+								"3"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/api/retails/{retailer_id} - RetailerController@update",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {
+							"accept": true
+						}
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiMTRhYjc3YWViODgzMDQ3YTU4ZmZkNGRkN2ZlYTYzMDQ4ZTc5YmRiMTRlOGY3ZmM1MzYzM2Q3NTk5ZjM5YzRkNWQwZjZmMTA2ZDVmN2IxZjYiLCJpYXQiOjE1ODgwNTgwNzksIm5iZiI6MTU4ODA1ODA3OSwiZXhwIjoxNTg4MDYxNjc3LCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.auCPCJH06sRRnOR1XkRbIWykwo6IsNXXMuQm_kxUOM-PR4pCqoHdOoLz8ULqCwjUdxgrUCxlue3ELUQDsJmP1Na_Wc17IFEY8T_e1xqNx8Bi7HrlbHKuvE9JBpdtgsFxHbFR6zznGge4O89pDjWUGT0NSrdH2fpmzUUO71Alj2S6wZ40w9iHyVjs6YgWGjlFNsiFaUEaeGCWOOA2HvmD6cDFzu5p-X5xqG7Fe2hlyhpUsWdhIdGtMq3cjMaPK69dfnHoogYecTwLSQZmqixfOAVcxn4SEuMfGNXhYwidRX48-W_tajih-Ch_NSlO44PDp1hzo5r_xK1ytfFsm6aDwZjYfVG-e-EjHYHwrK62utYIQc5Ty0q6BgDUeez8G93AcArSKEbWatxRj0z6HypjKsmJNOeJB2zLKme-Fo_v9j_AFRHkIZPalGBTgoUiZePBCgUUNLHkLlaLYZl3TFKDZETR2Ae3TqaXLwI_NwcHLWN9W6Vxottp2qmsyqMpbsg1lC6yIpe7s4c0sLTzumYcb-NTUmvHnC2WC3tiV1pfuSiSLOxqa9MAJ8TDG1EhadNxZdfvDJ7Sost5UK_QbMsy8juOXFcFeE-UMFxFbjcE7usx26L42WJ8iqVNDcBTc4Wb1tL56B1Ts9VFYSjSEuuAcxqTzgTkbZPUfnSkziDJZzY",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"warning": "This is a duplicate header and will be overridden by the Content-Type header generated by Postman.",
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Retailer 02\",\r\n    \"vat\": \"019876543210000\",\r\n    \"alert_time\": 30,\r\n    \"delivery_time\": 15,\r\n    \"does_delivery\": true,\r\n    \"does_takeaway\": true,\r\n    \"address\": \"via Tal dei Tali 2\",\r\n    \"zip_codes\": [\"25136\"],\r\n    \"bio\": \"Just a test reseller\"\r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:8000/api/retails/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"retails",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/api/retails/{retailer_id} - RetailerController@destroy",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiMTRhYjc3YWViODgzMDQ3YTU4ZmZkNGRkN2ZlYTYzMDQ4ZTc5YmRiMTRlOGY3ZmM1MzYzM2Q3NTk5ZjM5YzRkNWQwZjZmMTA2ZDVmN2IxZjYiLCJpYXQiOjE1ODgwNTgwNzksIm5iZiI6MTU4ODA1ODA3OSwiZXhwIjoxNTg4MDYxNjc3LCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.auCPCJH06sRRnOR1XkRbIWykwo6IsNXXMuQm_kxUOM-PR4pCqoHdOoLz8ULqCwjUdxgrUCxlue3ELUQDsJmP1Na_Wc17IFEY8T_e1xqNx8Bi7HrlbHKuvE9JBpdtgsFxHbFR6zznGge4O89pDjWUGT0NSrdH2fpmzUUO71Alj2S6wZ40w9iHyVjs6YgWGjlFNsiFaUEaeGCWOOA2HvmD6cDFzu5p-X5xqG7Fe2hlyhpUsWdhIdGtMq3cjMaPK69dfnHoogYecTwLSQZmqixfOAVcxn4SEuMfGNXhYwidRX48-W_tajih-Ch_NSlO44PDp1hzo5r_xK1ytfFsm6aDwZjYfVG-e-EjHYHwrK62utYIQc5Ty0q6BgDUeez8G93AcArSKEbWatxRj0z6HypjKsmJNOeJB2zLKme-Fo_v9j_AFRHkIZPalGBTgoUiZePBCgUUNLHkLlaLYZl3TFKDZETR2Ae3TqaXLwI_NwcHLWN9W6Vxottp2qmsyqMpbsg1lC6yIpe7s4c0sLTzumYcb-NTUmvHnC2WC3tiV1pfuSiSLOxqa9MAJ8TDG1EhadNxZdfvDJ7Sost5UK_QbMsy8juOXFcFeE-UMFxFbjcE7usx26L42WJ8iqVNDcBTc4Wb1tL56B1Ts9VFYSjSEuuAcxqTzgTkbZPUfnSkziDJZzY",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8000/api/retails/3",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"retails",
+								"3"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "User",
+			"item": [
+				{
+					"name": "/api/users/{user} - UserController@update",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {
+							"content-type": true
+						}
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiOGQ1NjY3ODRhYjg1ZDM0NjJkN2UxZDc4NGFkMzZiMzQwMTNlYTViNTBmMDE3MDc2OTFiYTIwMWE2Y2E3MDNjYzI1MjAzZGJlMGVkN2Q1ZTUiLCJpYXQiOjE1ODgwNzY3MDksIm5iZiI6MTU4ODA3NjcwOSwiZXhwIjoxNTg4MDgwMzA5LCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.nMCIoLkUaEVmIuFtw0Sj7dior0TEVAVWuJdMP8PS5rimZJbBWG8a5sckZw07kSQvZ921NeHwC0UffpcX9vapWIHAQq0ucJL3kBEvYsMBPjT6of23ArKMEqiVezHl5cgpDnvouQ-vwtAV1sl4QZLELB_WPr_IRmIMaE84ESatxcdHHlrk6HNVT0uH6OBiAztytGOAswnQgtYEQy5pkWeGAKEOjHQh3XsNoo84Ls2VvL7xWbeJDsVfIUQO6fFVIemC3it3TdzLW_j8OOoFMxc-sJlcvY42nX6v_BVgv8HE2-GoLFmxTFaz78AUoil2OXnov2jQh2p5DJY6DdBlpwIhNkzrRROioV5tFVTf6wNmrHD0kTsV9CSsmlnO0dRElDWbh4piA9x2yndpi1xvDfnbSoSqqqIfaOHOG1friTgrxAzMPRGutg15W4GAdHjZDd8mYwHQm2g7ol6ksF_GaAuah-iZOIUqhQz1OgpKz9uyLeblyQpkI-qVU5uOjEiGCwhQTTD7W6CW-BJtHbH7xu1pasvVLqwxRNCxp7xpbv-a8mvUTXEzDGtARzk-sVMql0WnWbUX-PmwfETxQ_2VU51mjpkjfghI9TiHje4v0Cj4d14bdNX8yP54gIUqhqEETQWWXzgyPtHsc5fgbiGPdGmG4cT3hnLOE5mZhMXV5NxP4NU",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"name\": \"Standard User 01\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8000/api/users/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"users",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/api/users/{user} - UserController@show",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiOGQ1NjY3ODRhYjg1ZDM0NjJkN2UxZDc4NGFkMzZiMzQwMTNlYTViNTBmMDE3MDc2OTFiYTIwMWE2Y2E3MDNjYzI1MjAzZGJlMGVkN2Q1ZTUiLCJpYXQiOjE1ODgwNzY3MDksIm5iZiI6MTU4ODA3NjcwOSwiZXhwIjoxNTg4MDgwMzA5LCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.nMCIoLkUaEVmIuFtw0Sj7dior0TEVAVWuJdMP8PS5rimZJbBWG8a5sckZw07kSQvZ921NeHwC0UffpcX9vapWIHAQq0ucJL3kBEvYsMBPjT6of23ArKMEqiVezHl5cgpDnvouQ-vwtAV1sl4QZLELB_WPr_IRmIMaE84ESatxcdHHlrk6HNVT0uH6OBiAztytGOAswnQgtYEQy5pkWeGAKEOjHQh3XsNoo84Ls2VvL7xWbeJDsVfIUQO6fFVIemC3it3TdzLW_j8OOoFMxc-sJlcvY42nX6v_BVgv8HE2-GoLFmxTFaz78AUoil2OXnov2jQh2p5DJY6DdBlpwIhNkzrRROioV5tFVTf6wNmrHD0kTsV9CSsmlnO0dRElDWbh4piA9x2yndpi1xvDfnbSoSqqqIfaOHOG1friTgrxAzMPRGutg15W4GAdHjZDd8mYwHQm2g7ol6ksF_GaAuah-iZOIUqhQz1OgpKz9uyLeblyQpkI-qVU5uOjEiGCwhQTTD7W6CW-BJtHbH7xu1pasvVLqwxRNCxp7xpbv-a8mvUTXEzDGtARzk-sVMql0WnWbUX-PmwfETxQ_2VU51mjpkjfghI9TiHje4v0Cj4d14bdNX8yP54gIUqhqEETQWWXzgyPtHsc5fgbiGPdGmG4cT3hnLOE5mZhMXV5NxP4NU",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:8000/api/users/{user}",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"users",
+								"{user}"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "/api/login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "email",
+							"value": "user_01@test.com",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "123456789",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/api/user",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiNjM3OGQzY2UyZDA5ZmYyZmUyMDg3ZjAwYjVhNTJlNWMxMGQ1ZTFjMGFkN2YyM2IwMjIwY2NjNGY3ZWI4MWFkYThkMmYxMWJjOGUzZDhiMDYiLCJpYXQiOjE1ODc3MzQ2OTQsIm5iZiI6MTU4NzczNDY5NCwiZXhwIjoxNjE5MjcwNjk0LCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.dzGh-oVXtLZW-8vK4xTUQ7LLNK_WlLno6_oOK8N0QO-HsLAk8q1ej-ngMFCKYiNDszA_Z-Z0kmQEVtmUjw3n0swpA2gPKHuWDjbzOTebAdSI9KdZwhJ0qwef7GNREDjD7dU7E3bgUfekHDvT2ptk0Rzh8EFSC1yrHnq-BLz24XsNnWAhirCNuE5L2DmwvwXQwfNmnUUzUrtHCpzTtLfqOKjaCFYYe5XEM_d84scnXeQmzzrUuqy3KNw8MUfEpUcB55-FmXIMMeXn17frg8mv778ssYtHU-07n9g2h0-seEEO3wShOtQIVyMz9X5aI3WUIlBd4HhHb_SJfpp2HwjoReC0DD79H8Hmysa2FFP6XBxwZ25fSEREXHZIVvclYV1sY6nkJwNRzqEFqG13oHTwHEj2bfalBpPpu13LxqenwRALrm2a-o9VXCMhuMRL6GsMMeQNvaSUHXtwhTqrqEXjscB6F72r2fcLtrXnTWIJr0rQ-MhAL0DMswLqvcGlC-9l1oAvoqOv__Xy0cHgahEKtcNagr-k_3wZjYP75FV5GRqSrjon08Gbmo4ylkd_Tx4SfRHqooW4gd8H9B-F1zI9c5ce7WKO8wS9fCm2CdHMlujhxXEOyxlxhw-2ztNTyyzAcEfXkTZi_Kmc7MNgnvMmdAEsfpT_ZnQTCQhLr5l5P4w",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": "HttpRequest",
+						"type": "text"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8000/api/user",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"user"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/api/register/{type}",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {
+					"accept": true
+				}
+			},
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "PublisherUser 01",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "publisher_01@test.com",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "123456789",
+							"type": "text"
+						},
+						{
+							"key": "c_password",
+							"value": "123456789",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/register/publisher",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"register",
+						"publisher"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
